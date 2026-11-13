@@ -1,0 +1,141 @@
+{
+  "base_family": "holomotion_official_g1_v1.4",
+  "public_sha256": "898d1a02829f901fbad4ed07178df2b06778620b54e8bccf5e07ffcb4c31d32d",
+  "scenes": [
+    {
+      "task": "husky_skateboard",
+      "label": "Skateboard",
+      "media_name": "skateboard",
+      "source_metadata": "website/public/media/skate-on.json",
+      "source_sha256": "3da1ef467153a0a8059e61063506322d49946c696ff9f98770f4b9269901e850",
+      "duration_s": 5.0,
+      "website_roster_plugin_sha256": "e370338acdd0c64b9e0d1b8e00243d23701602d78356a515d32bda34c1b2c936"
+    },
+    {
+      "task": "athlete_tennis",
+      "label": "Tennis return",
+      "media_name": "tennis",
+      "source_metadata": "website/public/media/tennis.json",
+      "source_sha256": "3a5682fca346d7e71d9ae27d8c656acd0a0bac5ebe6b4349635abded6ab8ca8a",
+      "duration_s": 20.0,
+      "website_roster_plugin_sha256": "d5dcbae527fb1ed86a2e55e0429049a2d670221ce4db3af679a4d821f2ad23e6"
+    },
+    {
+      "task": "mimicx_stairs",
+      "label": "Continuous stair ascent",
+      "media_name": "stairs",
+      "source_metadata": "website/public/media/catalog31-white-v2/mimicx_stairs-on.json",
+      "source_sha256": "eb3ce0a34a744d23926c126ec0007bdec425c435f99af5ee8e90e3c163bec6e8",
+      "duration_s": 9.0,
+      "website_roster_plugin_sha256": "4eb015a3dfcf1909531c3e0eb731ce53276da3fbdf8494eeaa7532141f1c8612"
+    },
+    {
+      "task": "ultra_largebox",
+      "label": "Box carrying",
+      "media_name": "box-carrying",
+      "source_metadata": "website/public/media/catalog31-white-v2/ultra_largebox-on.json",
+      "source_sha256": "57b178e44a501d7570810ca58e716b2bea3ed71508622aa7e19f4340ecdf2220",
+      "duration_s": 10.0,
+      "website_roster_plugin_sha256": "d20f1e505046aee1fbec707f9c4c2b8a45f84fbf6270276199aa2d62751244c1"
+    },
+    {
+      "task": "roll_vault_no_wall",
+      "label": "Obstacle vault",
+      "media_name": "vault",
+      "source_metadata": "website/public/media/vault-on.json",
+      "source_sha256": "c3005c16a0d4715da1a5d0ad40abeaf6054409530c7f52fe3d3b8a9995ab5809",
+      "duration_s": 10.466666666666667,
+      "website_roster_plugin_sha256": "f3645f8c243de30a7df51193f9b0f14ff76949e6ef5a52efd9425a03a689ca9c"
+    },
+    {
+      "task": "parkour_gaps",
+      "label": "Gap crossing",
+      "media_name": "gap-crossing",
+      "source_metadata": "website/public/media/gaps-on.json",
+      "source_sha256": "8f1185148384e28bfb16ed5d83feb56fad2f03fb3a37106362d43f192fc0c0aa",
+      "duration_s": 6.0,
+      "website_roster_plugin_sha256": "917ebcb9eac46a81c356a953049fff046f0adbc79a699cab3ad8e0df2bae7267"
+    }
+  ],
+  "preview": {
+    "tool": "ffmpeg",
+    "fps": 10,
+    "width": 640,
+    "speed": 1,
+    "loop": true,
+    "whole_homepage_excerpt_preserved": true
+  },
+  "support_illustration": {
+    "description": "Original capybara-and-daisy thank-you illustration generated for PERA.",
+    "tool": "built-in image_gen",
+    "reference_images_used": false,
+    "role": "Decorative illustration; not simulation output."
+  },
+  "files": [
+    {
+      "path": "assets/readme/box-carrying.gif",
+      "bytes": 653907,
+      "sha256": "1ef94be64898eab12b2f0e789556df683693ed3be1eaee4684dd7887b678a433"
+    },
+    {
+      "path": "assets/readme/box-carrying.mp4",
+      "bytes": 331863,
+      "sha256": "57b178e44a501d7570810ca58e716b2bea3ed71508622aa7e19f4340ecdf2220"
+    },
+    {
+      "path": "assets/readme/gap-crossing.gif",
+      "bytes": 3270958,
+      "sha256": "86528b0e0df2e320df5c61c0a69cbb7a03366124c63c40c697b2417ad29c3ed2"
+    },
+    {
+      "path": "assets/readme/gap-crossing.mp4",
+      "bytes": 1214669,
+      "sha256": "8f1185148384e28bfb16ed5d83feb56fad2f03fb3a37106362d43f192fc0c0aa"
+    },
+    {
+      "path": "assets/readme/skateboard.gif",
+      "bytes": 2753860,
+      "sha256": "ed1019fec4f5daaa4a71f83fb5df98a9dc8baa5747ca7fc362e1e4637169a071"
+    },
+    {
+      "path": "assets/readme/skateboard.mp4",
+      "bytes": 1427238,
+      "sha256": "3da1ef467153a0a8059e61063506322d49946c696ff9f98770f4b9269901e850"
+    },
+    {
+      "path": "assets/readme/stairs.gif",
+      "bytes": 2643395,
+      "sha256": "0304fe7d74bcbe6da84c3f8bd2eae8494000f97e379209218a906de192b25111"
+    },
+    {
+      "path": "assets/readme/stairs.mp4",
+      "bytes": 945563,
+      "sha256": "eb3ce0a34a744d23926c126ec0007bdec425c435f99af5ee8e90e3c163bec6e8"
+    },
+    {
+      "path": "assets/readme/tennis.gif",
+      "bytes": 7431016,
+      "sha256": "63388166d79f09d3dac1fe47d63bd5b4b2cc7a990698bba1625bdee93fdfaaac"
+    },
+    {
+      "path": "assets/readme/tennis.mp4",
+      "bytes": 4593269,
+      "sha256": "3a5682fca346d7e71d9ae27d8c656acd0a0bac5ebe6b4349635abded6ab8ca8a"
+    },
+    {
+      "path": "assets/readme/thank-you-capybara.png",
+      "bytes": 2552015,
+      "sha256": "6c8ca20ac59e94f4c1554c3c509a7a3599730d83fb957f0c2be112bb6455ed85"
+    },
+    {
+      "path": "assets/readme/vault.gif",
+      "bytes": 3216031,
+      "sha256": "dfec04aa7d5a7ed1f83cd14c1818d943ee43146e3725bb121d2197c77c4718c3"
+    },
+    {
+      "path": "assets/readme/vault.mp4",
+      "bytes": 1598974,
+      "sha256": "c3005c16a0d4715da1a5d0ad40abeaf6054409530c7f52fe3d3b8a9995ab5809"
+    }
+  ]
+}
