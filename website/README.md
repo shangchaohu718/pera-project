@@ -27,7 +27,7 @@ PAGES_BASE_PATH=/pera-project/ npm run build
 
 ## Content and resource updates
 
-- `src/content.js`: project title, release URLs and skill definitions. Keep unavailable paper/author/citation fields null until verified. The current Code link points to the verified existing private repository and is explicitly labeled private; this does not change repository access. Add actual links only when public resources exist.
+- `src/content.js`: project title, release URLs and skill definitions. Keep unavailable author/citation fields null until verified. The Code link points to the public research repository, https://github.com/shangchaohu718/PERA. Add actual links only when public resources exist.
 - `src/styles.css`: responsive design, typography, motion preferences.
 - `public/method.svg`: downloadable method diagram; reflect the implemented route.
 - `public/data/evidence.json`: compact source-backed experimental snapshot. Never enter estimated values or fabricated curves. Re-export from the project with `python website/scripts/export_evidence.py` from the parent repository root.

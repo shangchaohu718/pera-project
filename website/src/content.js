@@ -4,8 +4,8 @@ export const project = {
   "name": "PERA",
   "subtitle": "Incremental Skill Learning for Humanoid Robots.",
   "paper": "https://arxiv.org/html/2611.16188v1",
-  "code": "https://github.com/shangchaohu718/PERA-g1",
-  "codeStatus": "Private repository",
+  "code": "https://github.com/shangchaohu718/PERA",
+  "codeStatus": "GitHub",
   "video": "media/scene-preview.mp4",
   "authors": null,
   "citation": null
