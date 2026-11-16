@@ -77,14 +77,30 @@ There are 48 web MP4s including the native-scene highlights, the complete native
 
 ## GitHub Pages
 
-This website is published from the dedicated public repository
-`shangchaohu718/pera-project` at
-https://shangchaohu718.github.io/pera-project/ . The separate robotics repository
-remains private. Push website changes to `main` to run
-`.github/workflows/pear-pages.yml`; the Pages source is **GitHub Actions**.
-See the root README for the current editing and publishing instructions.
+Public URL: https://shangchaohu718.github.io/pera-project/
 
-The workflow checks out only the website and does not fetch robotics LFS assets. `website/.gitattributes` keeps small web MP4 files as ordinary Git files so Pages does not receive LFS pointer text. Local `qa/`, `.render-work/`, `node_modules/` and `dist/` are ignored.
+Editable source is on `main` in `shangchaohu718/pera-project`. GitHub Pages serves
+prebuilt files from `gh-pages`; the training repository keeps its existing access.
+The authenticated GitHub account currently has `repo` access without the
+`workflow` scope, so publication uses the static branch rather than Actions.
+
+After committing and pushing source changes to `main`, publish from this checkout:
+
+```bash
+cd website
+npm run deploy
+```
+
+Requires Node 22, npm, Git and an authenticated GitHub CLI (`gh`) with repository
+write access. The command builds with `/pera-project/` as its base path, stages
+only `dist/` using a temporary Git index, pushes the static `gh-pages` branch and
+requests a Pages build. It preserves the editable source branch and all media.
+The original Actions workflow is retained as an optional template at
+`docs/github-pages-actions.yml.example`; enabling it later requires appropriate
+workflow authorization and changing the Pages source to Actions.
+
+Web MP4s remain ordinary Git files as configured by `.gitattributes`. Local
+`qa/`, `.render-work/`, `node_modules/`, ZIP exports and `dist/` are ignored.
 
 The tennis demo is a fresh 40-second rollout of the existing frozen round_10 student, seed 97001, with zero teacher queries/actions and no training. `record_tennis.py` records the original simulation; `tennis_hands.py` restores only the upstream commented visual meshes in a separate replay model. `public/data/tennis-recording.json` and `tennis-hands.json` contain the audit.
 
